@@ -1,0 +1,44 @@
+body{
+    background-color: lightblue;
+}
+h1{
+    color: black;
+    text-align: center;
+}
+p{
+    /* padding-top: 20px; */
+    /* padding-top: 200px; */
+    padding-left: 200px;
+   padding-bottom: 200px;
+}
+#para1{
+    text-align: center;
+    color: black;
+}
+#heading1{
+    color: black;
+
+}
+.class1 {
+    color: red;
+    text-align: center;
+}
+h1
+{
+
+}
+/* * Universal Selector is not Working here so we not use that one  */
+body{
+    background-color: white;
+    /* background-image: url("./images/line.png"); */
+    /* background-repeat: no-repeat;  */
+    background-position: right top;
+    background-attachment: scroll;
+    background-attachment: fixed;
+
+
+}
+h2,h3{
+    border: 2px solid blue;
+    text-align: center;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>labwork</title>
+
+    <style>
+        div{
+            width: 50px;
+            background-color: aqua;
+            border: 2px solid black;
+            position: relative;
+          animation-name: movingbox;
+            animation-duration: 5s;
+            animation-delay: 2s;
+            animation-timing-function: linear;
+            animation-iteration-count: 3;
+            /* animation-direction: alternate; */
+
+        }
+        body{
+            animation: bgcolor 6 ease 2 1;
+
+        }
+        body{
+            animation: back 5 linear 1 3;
+            background-color: brown;
+        }
+        @keyframes backcolor{
+
+            
+        }
+        @keyframes movingbox
+        {
+
+            0%{background-color: aqua;}
+            25%{background-color: brown;}
+            50%{background-color: green;}
+            75%{background-color: blue;}
+        }
+        {
+            from{
+    top: 0px;
+    left: 0px;
+    background-color: red;
+
+                
+            }
+            to{
+                background-color: green;
+                top: 0px;
+                left: 300px;
+            }
+        }
+        .img1{
+            width: 150px;
+            position: relative;
+            left: 300px;
+            /* animation-name: replacing; */
+            animation-name: replacing;
+            border: 2px solid lightblue;
+            
+
+        }
+        @keyframes replacing{
+            from{
+                opacity: 1;
+            }
+            to{
+                opacity: 0;
+            }
+        }
+        .img2{
+            width: 300px;
+            position: relative;
+            /* left: 300px; */
+            
+
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <img src="./images/pic1.jpg" alt="" class="img1">
+        <img src="./images/pic2.jpg" alt="" class="img2">
+        <img src="https://www.shutterstock.com/video/clip-1062127636-2d-animation-icon-swimming-man-flat-design" alt="error">
+        hellow
+        <vedio>
+            <video width="320" height="240" controls>
+               
+                Your browser does not support the video tag.
+              </video>
+        </vedio>
+        <video src="https://www.shutterstock.com/video/clip-1062127636-2d-animation-icon-swimming-man-flat-design"></video>
+    </div>
+   
+    <!-- <video src="https://www.shutterstock.com/shutterstock/videos/1062127636/preview/stock-footage--d-animation-of-icon-swimming-man-in-flat-design.webm"></video> -->
+</body>
+</html>
+<!-- <animation-vedio>https://www.shutterstock.com/shutterstock/videos/1062127636/preview/stock-footage--d-animation-of-icon-swimming-man-in-flat-design.webm</animation-vedio> -->
